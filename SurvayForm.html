@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <style>
+            div
+            {
+              width: 800;
+              height: 500;
+              background-color: aliceblue;
+              align-content: center;
+            }
+            body{
+                font-family: calibri,Helvetica,sans-serif;
+                background-color:skyblue;
+            }
+            .fieldset{
+                padding: 50px;
+                
+            }
+        </style>
+        <title> Survay form</title>
+        <body  bgcolor="skyblue">
+    </head>
+    <fieldset>
+        <h1 align="center" >Customer Survay Form </h1>
+        <form >
+        <div textalign="center">
+            <br>
+            <label for="name">Name:</label>
+            <input type="text" name="name" size="15" required />
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" size="15" required ><br><br>
+
+            <label for="q1" align="center">Is this first time you are using our product & service?</label><br>
+          <input type="radio" name="yes" value="yes" checked> Yes
+           <input type="radio" name="no"  value="No"> No <br><br>
+
+           <label for="q2"align="center"> Would you suggestion to your friend and colleague?</label><br>
+            <input type="radio" name="yes" checked>Yes
+           <input type="radio" name="no" checked>  No<br><br>
+
+           <label for="q3"align="center"> How satisfied are you with our company overall?</label><br>
+            <input type="radio" name="satisfied" checked>Satisfied
+          <input type="radio" name="Undecided" > Undecided
+           <input type="radio" name="Unsatisfied"> Unsatisfied<br><br>
+
+           <label for="textbox" align="center"> Do you have suggestion to improve our service?</label><br>
+
+           <textarea cols="80" rows="5" value="suggestion" required></textarea><br><br>
+            <button type="submit" class="SUBMIT" style="background-color:skyblue;">SUBMIT</button>
+        </div>
+        </form>
+    </fieldset>
+</body>
+</html>
+
+
+
